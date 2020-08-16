@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  get 'items/index'
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  # ルーティングの変更(デプロイ勉強会時)
+  root 'items#index'
 end
